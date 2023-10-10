@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 function About() {
   return (
-    <div className="about py-10 md:p-32 text-center ">
+    <div className="about py-10 p-10 lg:p-32 text-center ">
         <div className="text-grey-500">Get to know</div>
         <div className="text-grey-900 text-5xl font-bold">About Me</div>
         <div
@@ -13,7 +13,7 @@ function About() {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         >
-          <img src="/sarjana.jpg" className="md:h-[480px] rounded-3xl" />
+          <img src="/sarjana.jpg" className="md:h-[420px] rounded-3xl" />
           <div className="py-2 flex flex-col gap-10">
             <div
               className="grid md:grid-cols-2 gap-5"
